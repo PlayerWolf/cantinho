@@ -1,0 +1,842 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-image: url(images/backgroundBody.png);
+}
+
+.logo img {
+  padding-left: 50px;
+  margin-bottom: -40px;
+  margin-top: -40px;
+  width: 30%;
+}
+
+section.topo {
+  background-image: linear-gradient(114deg, #fc0fc0, #ffcbdb);
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+  padding-right: 90px;
+}
+
+.menu-mobile {
+  float: right;
+}
+
+.menu-desktop {
+  width: 45%;
+  float: right;
+  }
+
+.menu-desktop a:hover {
+  border: 2px solid white;
+  font-size: 27px;
+  background-image: linear-gradient(114deg, #ffcbdb, #fc0fc0);
+  border-radius: 5px;
+}
+
+.menu-desktop li {
+  font-size: 25px;
+  display: inline-block;
+  margin: 0 50px;
+  margin-right: 1%;
+}
+.menu-desktop a {
+  text-decoration: none;
+  color: white;
+}
+/*end topo*/
+
+.titulohome h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+  color: #ff007f;
+}
+
+.titulohome h1::first-letter {
+  font-size: 80px;
+}
+
+/*start metodologia */
+.metodologia h1 {
+  float: right;
+  margin-top: 50px;
+  margin-right: 24%;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #ff007f;
+  font-style: italic;
+}
+
+.metodologia h1::first-letter {
+  font-size: 45px;
+}
+
+.metodologia h2 {
+  float: right;
+  margin-right: 50px;
+  width: 65%;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.metodologia ul.img{
+  text-align: center;
+}
+
+.metodologia img {
+  width: 20%;
+  margin-top: 6%;
+  transition: all 0.7s;
+  cursor: pointer;
+  border: 3px solid black;
+}
+.metodologia img:hover {
+  border-radius: 10%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+.barra img {
+  padding-left: 10%;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.barra2 img {
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+.metodologia-1 h1 {
+  float: left;
+
+  margin-left: 30%;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #ff007f;
+  font-style: italic;
+}
+
+.metodologia-1 li {
+  text-align: left;
+  padding-left: 20%;
+}
+
+.metodologia-1 h2 {
+  float: left;
+  font-weight: normal;
+  padding-left: 150px;
+  margin-top: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.metodologia-1 img {
+  width: 16%;
+  border: 3px solid black;
+  margin-left: -100px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.metodologia-1 img:hover {
+  border-radius: 10%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+.Procedimento-1 h1 {
+  text-align: center;
+  margin-top: 25%;
+}
+
+section.clientes-slider {
+  padding: 10px 0;
+}
+
+section.clientes-slider img {
+  padding: 0 50px;
+}
+
+/*SLICK SLIDER*/
+
+.slick-dotted ul {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.slick-dotted li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+  outline: 0;
+}
+
+.slick-dotted li button {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  color: #eab6e6;
+  border-width: 0;
+  background: #eab6e6;
+  opacity: 1;
+  cursor: pointer;
+}
+
+li.slick-active button {
+  background: #fa46ea;
+  color: #fa46ea;
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
+section.depoimentos {
+  padding: 100px 0;
+  background-color: #bf40bf;
+}
+
+section.depoimentos h2 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.depoimentos-box {
+  margin: 10px auto;
+  max-width: 800px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+.depoimento-single {
+  width: 100%;
+  display: inline-block;
+}
+.depoimento-single p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: white;
+}
+.depoimento-single img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+/*espaço*/
+
+section.espaço h2 {
+  text-align: center;
+  color: #ff007f;
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+}
+
+section.espaço h2::first-letter {
+  font-size: 45px;
+}
+
+.espaço-box {
+  margin: 10px auto;
+  max-width: 1000px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+.espaço-single {
+  width: 100%;
+  display: inline-block;
+}
+.espaço-single img {
+  border: 10px solid pink;
+  height: 500px;
+  display: block;
+  margin: 10px auto;
+}
+
+section.espaço-slider {
+  padding: 10px 0;
+}
+
+footer {
+  background-color: pink;
+  border-top: 2px solid purple;
+  clear: both;
+  position: relative;
+
+}
+
+
+
+footer > .center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-footer {
+  width: 20%;
+margin-right: 8%;
+}
+
+.col-footer ul {
+  text-align: center;
+  margin-right: 25px;
+}
+
+.col-footer h2 {
+  color: #232931;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: cursive;
+}
+
+.col-footer img {
+  border-radius:6px ;
+  width: 30%;
+  float: left;
+ text-align: center;
+ margin-right: 4px;
+}
+ 
+.col-footer ul {
+    margin-left: 13%;
+}
+
+.col-footer-img{
+width: 30%;
+}
+
+.col-footer-img img {
+  margin-top:14%;
+
+}
+
+.formasPagamento{
+  margin-left:20%;
+  width: 20%;
+}
+
+.formasPagamento h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-weight: normal;
+}
+
+
+.formasPagamento img {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+/*Página Procedimentos*/
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid pink;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.Proc h2 {
+  color: #ff007f;
+  text-align: center;
+  font-size: 50px;
+}
+
+.Proc1 h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: #ff007f;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.Proc1 p {
+  text-align: center;
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.Proc1 ul {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Proc1 img {
+  width: 30%;
+}
+
+.BanhoRelaxante h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.BanhoRelaxante p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.BanhoRelaxante img {
+  border: 2px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.BanhoRelaxante img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.BanhoRelaxante ul {
+  text-align: center;
+}
+
+.CalosECalosidades h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.CalosECalosidades p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.CalosECalosidades img {
+  border: 2px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.CalosECalosidades img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.CalosECalosidades ul {
+  text-align: center;
+}
+
+.ArgilaPreta h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.ArgilaPreta p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.ArgilaPreta img {
+  border: 1px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.ArgilaPreta img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.ArgilaPreta ul {
+  text-align: center;
+}
+
+.Onicofose h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Onicofose p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.Onicofose img {
+  border: 1px solid black;
+  width: 22%;
+  border-radius: 10%;
+  margin-left: 30px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.Onicofose img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.Onicofose ul {
+  text-align: center;
+}
+
+.Parafina h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Parafina p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.Parafina img {
+  border: 1px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.Parafina img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.Parafina ul {
+  text-align: center;
+}
+
+.Fissuras h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Fissuras p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.Fissuras img {
+  border: 1px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.Fissuras img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.Fissuras ul {
+  text-align: center;
+}
+
+.PésDiabéticos h2 {
+  text-align: center;
+  color: #ff007f;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.PésDiabéticos p {
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.PésDiabéticos img {
+  border: 1px solid black;
+  width: 17%;
+  border-radius: 10%;
+  margin-left: 48px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.PésDiabéticos img:hover {
+  -webkit-transform: scale(1.5);
+  margin-left: 100px;
+  margin-right: 50px;
+  transform: scale(1.5);
+  border: 3px solid pink;
+  cursor: default;
+}
+
+.PésDiabéticos ul {
+  text-align: center;
+}
+
+.contato h1{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 7%;
+  font-family:cursive;
+  text-decoration: underline;
+  color:#a50097;
+}
+
+.contato ul{
+  margin-left: 15% ;
+  margin-top:5%
+}
+.contato li{
+  font-size: 27px;
+  list-style-type:decimal;
+  font-family:cursive;
+}
+.contato a{
+  margin-left: 1%;
+}
+
+.contato h2{
+  text-align: end;
+  margin-right: 5%;
+  font-family:cursive;
+  float: right;
+}
+
+.contatoIcon {
+  text-align: center;
+}
+
+.contatoIcon img{
+  width: 8% ;
+  margin-left: 5%;
+  margin-top: 7%;
+  border-radius: 10px;
+}
+
+@media  (max-width: 980px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .logo img {
+    width: 70%;
+  }
+  .menu-desktop {
+    width: 10%;
+    margin-top: -50px;
+  }
+  .menu-desktop li {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  /*body*/
+  body {
+    background-image: url(images/backgroundBodyResponsive.png);
+  }
+
+  .titulohome h1{
+    font-size: 72px;
+  }
+
+
+  .metodologia ul.img img{
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .metodologia h1 {
+    width: 98%;
+    margin-right:0%;
+    text-align: center;
+    
+  }
+  .metodologia h2 {
+    width: 80%;
+    margin-right: 0% !important;
+  }
+
+   .metodologia-1 h1 {
+    width: 70%;
+      }
+  .metodologia-1 h2 {
+    width: 100%;
+    font-size: 27px;
+    margin-left: -4% !important;
+  }
+  .metodologia-1 img {
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 32%;
+   }
+  
+  .metodologia-1 li {
+  padding-left: 0% !important;
+  }
+
+  /*PROCEDIMENTOS*/
+
+  /*BANHO RELAXANTE*/
+  .BanhoRelaxante img {
+    width: 28%;
+  }
+  /*CALOS E CALOSIDADES*/
+  .CalosECalosidades img {
+    width: 28%;
+  }
+  /*ARGILA PRETA*/
+  .ArgilaPreta img {
+    width: 28%;
+  }
+  /*ONICOFOSE*/
+  .Onicofose img {
+    width: 30%;
+  }
+  /*PARAFINA*/
+  .Parafina img {
+    width: 28%;
+  }
+  /*FISSURAS*/
+
+  .Fissuras img {
+    width: 28%;
+  }
+
+  .col-footer {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .col-footer img{
+    width: 28%;
+    margin-right: 10px;
+  }
+
+  .col-footer h2{
+    font-size: 40px;
+  }
+
+  .col-footer-img  ul{
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .col-footer-img {
+    width: 100%;
+  }
+
+  .col-footer-img ul {
+    text-align: center;
+  }
+
+  .col-footer-img img {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 20% ;
+   }
+
+   .formasPagamento {
+     width: 100%;
+   }
+
+   .formasPagamento img{
+    width: 75%;
+  }
+
+  }
